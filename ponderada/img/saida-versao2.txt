@@ -1,0 +1,8 @@
+=== Versão 2 - com semáforos vazio/cheio/mutex ===
+N = 6 posições | 20000 amostras | timeout de travamento = 1 s | Python 3.13.7
+
+Exec | Produzidas | Consumidas | Perdidas | Duplicadas | Travou | Tempo (s)
+---------------------------------------------------------------------------
+   1 |      20000 |      20000 |        0 |          0 |    não |      0.17
+   2 |      20000 |      20000 |        0 |          0 |    não |      0.15
+   3 |      20000 |      20000 |        0 |          0 |    não |      0.15

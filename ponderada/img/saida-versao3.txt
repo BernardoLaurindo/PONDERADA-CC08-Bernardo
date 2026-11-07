@@ -1,0 +1,8 @@
+=== Versão 3 - semáforos com ordem trocada no produtor ===
+N = 6 posições | 20000 amostras | timeout de travamento = 1 s | Python 3.13.7
+
+Exec | Produzidas | Consumidas | Perdidas | Duplicadas | Travou | Tempo (s)
+---------------------------------------------------------------------------
+   1 |          6 |          0 |    20000 |          0 |    SIM |      2.02
+   2 |          6 |          0 |    20000 |          0 |    SIM |      2.01
+   3 |          6 |          0 |    20000 |          0 |    SIM |      2.02
